@@ -52,4 +52,4 @@ Clone repository by using the command below:
 `git clone https://github.com/cinarn/ductionary.git`
 
 Install the package by using pip
-`python -m pip install -e ductionary`
+`python -m pip install git+https://github.com/cinarn/ductionary.git`
