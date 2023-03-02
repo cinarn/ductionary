@@ -41,10 +41,10 @@ print(e.a)
 
 ## Dependencies
 ```
-python = "^3.10,<3.12"
-numpy = "^1.24.2"
-scipy = "^1.10.1"
-json5 = "^0.9.11"
+python = "^3.9.13"
+numpy = "^1.21.5"
+scipy = "^1.9.1"
+json5 = "^0.9.6"
 ```
 
 ## Installation
