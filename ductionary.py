@@ -46,6 +46,12 @@ class duct(dict):
             other[key] = copy.deepcopy(value)
         return other
 
+    def __copy__(self, memo=None):
+        return self.copy()
+    
+    def __deepcopy__(self, memo=None):
+        return self.copy()
+    
     def update(self, other=None):
         if other is not None:
             _other = duct()
