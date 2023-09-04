@@ -5,7 +5,7 @@ A dictionary-derived object class to store items as attributes
 This library provides a dictionary structure with the functionality of accessing items by using class attributes. There are two classes in the library called `duct` and `numduct`:
 
 * `duct` object is for general use and it supports data input/output by using `.json` files via `save_json()` and `load_json()` functions.
-* `numduct` object is for numerical codes and it supports `.mat` (via `savemat()` and `loadmat()` functionas) and `.npz` formats (via `savez()` and `loadz()` functions).
+* `numduct` object is for numerical codes and it supports `.mat` (via `savemat()` and `loadmat()` functions) and `.npz` formats (via `savez()` and `loadz()` functions).
 
 ## Examples
 
